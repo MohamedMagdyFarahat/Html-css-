@@ -1,0 +1,17 @@
+@media screen and (max-width:1024) {
+    
+}
+@media screen and (max-width:992) {
+    .got {
+     
+        height: 66vh; 
+    }  
+}
+@media screen and (max-width:769) {
+    
+}
+@media screen and (max-width:600) {
+    .got{
+        height: 90vh;
+    }
+}

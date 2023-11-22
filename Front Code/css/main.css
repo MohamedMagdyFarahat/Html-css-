@@ -1,0 +1,417 @@
+@import url(../css/bootstrap.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css);
+@import url(../css/fonts.css);
+:root{
+    --bodyColor: #777777;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+body {
+    line-height: 24px;
+    font-size: 14px;
+    font-family: Roboto-Medium;
+    font-weight: 500;
+    color: var(--bodyColor);
+}
+/* header */
+ .header .nav-item{
+padding: 25px 20px;
+ }
+ .header{
+    background-color: white;
+ }
+ .header .navbar .active .nav-link {
+    color: #8252fa;
+}
+.header .navbar .nav-link{
+    transition: all .5s;
+    color: black;
+}
+.header .navbar .nav-link:hover{
+    color:#8252fa;
+}
+.header .form-inline .btn{
+    color: #fff;
+    background-color: #8252fa;
+    padding: 0 50px;
+    border-radius: 5px;
+    border:2px #8252fa;
+    transition: all .3s;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 47px;
+}
+.header .form-inline .btn:hover{
+    background-color: #fff;
+    color: #8252fa;
+    border: 2px;
+}
+/* end header */
+/* home */
+.home{
+    background-image: url(../img/home-banner.png.webp);
+    background-size: 100% 100%;
+    height: 110vh;
+}
+.home .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 130px;
+}
+.home .row h2{
+ color: #fff;
+ font-size: 48px;
+ font-family: Rajdhani-Regular;   
+}
+.home .row p{
+    font-size: 14px;
+    color: #fff;
+}
+.home .row .btn{
+margin-top: 20px;
+font-size: 12px;
+font-weight: 500;
+line-height: 47px;
+padding: 0 45px;
+}
+/*  end home  */
+/* complete */
+.complete .row{
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+justify-content: center;
+margin-top: 150px;
+}
+.complete .row h2{
+    color: #000;
+    font-family:Rajdhani-Bold;
+    text-transform: capitalize;
+}
+.complete .row button{
+    margin-top: 20px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border-color: #8252fa;
+    background-color: #fff;
+    transition: all .3s;
+}
+.complete .row button:hover{
+    background-color: #8252fa;
+    color: #fff;
+}
+.complete .row .text{
+    text-align: left;
+    padding-left: 80px;
+}
+.complete .row h4{
+    display: inline-block;
+    color: #222222;
+    font-size: 20px;
+    /* padding-left: 30px; */
+    font-family: Rajdhani-Medium;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.complete .row span{
+    font-size: 20px;
+    color: #000;
+    padding-left: 20px;
+}
+.complete .row p{
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 2rem; 
+}
+.complete .row .pts{
+    text-align: center;
+}
+.complete .row .col-lg-6{
+    margin-top: 110px;
+}
+.complete .row .line{
+    width: 100%;
+    height: 1%;
+}
+/* end complete */
+/* we beleive */
+.we_beleive{
+    background-image: url(../img/tab-bg.jpg.webp);
+    background-size: cover;
+    padding: 350px 0;
+}
+.we_beleive .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.we_beleive .nav-item{
+    color: #8252fa !important;
+}
+.we_beleive .nav-link {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    font-family: Rajdhani-Medium;
+    padding: 30px 35px;
+    border: #8252fa;
+
+}
+.we_beleive .fa-solid{
+    margin-bottom: 5px;
+    font-size: 30px;  
+}
+.we_beleive .row .active{
+    background-color: #8252fa;
+    color: #fff;
+}
+.we_beleive .nav-link:hover{
+background-color: #8252fa;
+
+}
+.we_beleive .nav-link :hover .we_beleive .fa-solid{
+    color: #fff;
+}
+.we_beleive .row .col-lg-5{
+    padding-top: 80px;
+}
+.we_beleive .row .col-lg-5 p{
+font-size: 14px;
+}
+.we_beleive .row .col-lg-5 hr{
+    width: 10%;
+    color: #8252fa;
+}
+.we_beleive .row .col-lg-5 h4{
+    color: #000;
+    font-size: 36px;
+    font-family: Rajdhani-Medium;
+}
+.we_beleive .row button{
+    margin-top: 20px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    border-color: #8252fa;
+    background-color: #fff;
+    transition: all .3s;
+}
+.we_beleive .row button:hover{
+    background-color: #8252fa;
+    color: #fff;
+}
+/*  end we beleive */
+/* amazing 1 */
+.complete .row .col-lg-6 .head{
+margin-top: 20px;
+margin-left: 10px;
+font-size: 38px;
+}
+.complete .row .mmc{
+    margin-top: 35px;
+    padding-left: 20px;
+}
+.complete .row .col-lg-1{
+    height: 100%;
+    border-left: 1px dashed #dbdade;
+}
+.complete .row .col-lg-6 .tts{
+    padding-left: 180px;
+}
+/* end amazing 1 */
+/* amazing 2 */
+.complete .wwe {
+    margin-top: 60px;
+      justify-content: space-between;
+}
+.complete .row .mmc{
+    margin-top: 5px;
+    padding-left: 20px;
+}
+.complete .row .col-lg-5 .ttsp{
+padding-top: 90px;
+}
+.complete .row .col-lg-5 .ttsp .head{
+ margin-top: 20px;
+margin-left: 10px;
+font-size: 38px;   
+}
+/*  end amazing 2 */
+/* cards */
+.cards .row{
+    justify-content:center;
+}
+.border-success {
+    border-color: #777777!important;
+    transition: all .5s;
+}
+.text-success {
+    color: #777777!important;
+}
+.cards .row .col-lg-4 .card-footer{
+        background: #fcf8ff;
+    max-width: 280px;
+    margin: 0px auto 40px;
+    border-radius: 5px;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    transition: all .5s;
+}
+.cards .row .col-lg-4{
+    padding: 0 15px;
+}
+.cards .row .col-lg-4 .card-footer h3{
+    font-size: 72px;
+    color: #222222;
+}
+.cards .row .col-lg-4 .card-title{
+    list-style: none;
+}
+.cards .row .col-lg-4 .card-header{
+    padding: 35px 0;
+    font-size: 20px;
+    font-family: Rajdhani-Bold;
+    color: #000;
+    transition: all .5s;
+}
+.cards .row .col-lg-4 .card-footer .price{
+font-size: 24px;
+vertical-align: top;
+padding-top: 14px;
+display: inline-block;
+}
+.cards .row .col-lg-4 .card-title  li{
+    padding: 5px 0;
+    font-size: 14px ;
+}
+ .cards .row .col-lg-4:hover .card-header{
+background-color: #8252fa !important;
+color: #fff;
+ }
+ .cards .row .col-lg-4:hover .border-success{
+    border-color: #8252fa!important;
+ }
+ .cards .row .col-lg-4:hover .card-footer{
+    background-color: #8252fa!important;
+ }
+ .cards .row .col-lg-4:hover .card-footer h3{
+    color: #fff;
+ }
+ .cards .row .col-lg-4:hover .card-footer .price{
+    color: #fff;
+ }
+ /* end cards */
+ /* what our */
+ .what .row .test img{
+    width: auto;
+ }
+ .what .row .test h4{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #000;
+    font-family: Rajdhani-Regular;
+ }
+ .what .row .test .stars{
+    margin-bottom: 25px;
+ }
+ .what .row .test .stars span{
+    color: #ffc000;
+    font-size: 12px;
+    padding-left: 2px;
+ }
+ .what .row .test .parag{
+    color: #777777;
+    font-size: 18px;
+    margin-bottom: 50px;
+ }
+/* end what our */
+/* photos */
+.photos .row .col-lg-2 img{
+    width: 50%;
+    color:#000 !important;
+}
+.photos .row .col-lg-2 .d-table-cell{
+    background: #fcf8ff;
+    height: 130px;
+    width: 170px;
+    vertical-align: middle;
+    text-align: center;
+}
+/* end photos */
+/* get */
+.got{
+    background-image: url(../img/impress-bg.png.webp);
+    background-size: 100% 100%;
+    height: 130vh;
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.got .row .col-lg-8{
+    padding-top:130px ;
+}
+.got .row .col-lg-8 h2{
+    color: #fff;
+}
+.got .row .col-lg-8 .pts{
+    color: #fff;
+}
+.got .row .col-lg-8 .pqw:hover{
+    background-color: transparent;
+}
+/* end got */
+/* the endest */
+
+.the-end{
+    background-image: url(../img/footer-bg.png);
+    background-size: cover;
+    padding-top: 290px;
+    padding-bottom: 120px
+}
+.the-end .row .col-lg-5 h6{
+    color: #000;
+    font-size: 20px;
+    font-family: Rajdhani-Bold;
+    margin-bottom: 30px;
+}
+.the-end .row .col-lg-5 p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #777777;
+    margin-bottom: 30px;
+}
+.the-end .row .col-lg-5 .colo{
+    color: #8252fa;
+}
+.the-end .row .col-lg-5 form input{
+    background: #fff;
+    border-radius: 50px;
+    width: 100%;
+    border: none;
+    padding: 0px 15px;
+    font-size: 14px;
+    color: #cccccc;
+    position: relative;
+}
+
+.the-end .row .col-lg-2 h6{
+    color: #000;
+    font-size: 20px;
+    font-family: Rajdhani-Bold;
+    margin-bottom: 30px;
+}
+.the-end .row .col-lg-2 .spans span{
+    padding-right: 10px;
+    transition: all .5s;
+}
+.the-end .row .col-lg-2 .spans span:hover{
+    color: #8252fa;
+}
+/* end the endest */
